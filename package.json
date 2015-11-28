@@ -1,16 +1,20 @@
 {
   "name": "tombtone",
   "version": "1.0.0",
-  "description": "tombtone website",
-  "main": "index.js",
+  "description": "the north east's spooky music cabal",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "deusofnull",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
     "express-handlebars": "^2.0.1",
     "handlebars": "^4.0.5"
+  },
+  "engines": {
+    "node": "0.12.0"
   }
 }

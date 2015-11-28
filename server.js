@@ -20,6 +20,24 @@ app.get('/about', function(req,res){
   });
 });
 
+app.get('/groups', function(req,res){
+  res.render("groups", {
+    name: "Groups"
+  });
+});
+
+app.get('/shows', function(req,res){
+  res.render("shows", {
+    name: "shows"
+  });
+});
+
+app.get('/contact', function(req,res){
+  res.render("contact", {
+    name: "contact"
+  });
+});
+
 app.use(express.static('styles'));
 app.use('/media/images/', express.static('media/images/'));
 
