@@ -36,16 +36,45 @@
   color:inherit;
 }
 
-#gabMacabre {
+.center_image {
   padding: 100 0 100 0;
   margin-left: auto;
   margin-right: auto;
   display: block;
-
 }
 
+.center_text {
+  text-align: center;
+}
+
+#email_contact {
+  padding-top: 95;
+  font-family: 'Josefin Slab', serif;
+}
+
+#gabMacabre {
+  width: 400;
+}
+
+#aaron_about {
+  width: 400;
+  height: 500;
+}
+
+#grave_myrbs {
+  width: 400;
+}
+
+#dork_glitch {
+  width: 400;
+  height: 400;
+}
+
+#squad_crew {
+  padding-top: 5;
+  width: 400;
+}
 
 .ttFooter {
   text-align: center;
-
 }
